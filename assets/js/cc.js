@@ -1,7 +1,7 @@
 // outsky.cc — поведение страниц сервиса поверх core.js и sky.js. Классический скрипт (defer), без библиотек,
 // слушатели пассивные; без JS всё работает (ссылки и якоря, :target, :has()), здесь — только улучшения.
 //  me    — метка «Ваша система» на карточке устройства посетителя ([data-os] в .vp-pl и .gd-sw).
-//  dev   — инструкция: aria-current на плитке выбранного устройства (сам выбор — CSS по :target).
+//  dev   — инструкция: aria-current на плитке выбранного устройства (сам выбор — CSS по :target); RU/EN — с тем же #устройством.
 //  doc   — политика: язык меню и подвала — по разделу, который читают (html[data-ui]); подсветка пункта оглавления.
 (() => {
   const html = document.documentElement, $$ = s => [...document.querySelectorAll(s)];
@@ -18,10 +18,15 @@
     const ar = el.querySelector('.gd-ar'); if (ar) el.insertBefore(m, ar); else el.appendChild(m);
   });
 
-  // ---- dev: выбранное устройство в инструкции ----
-  const tiles = $$('.gd-sw a[href^="#"]');
+  // ---- dev: выбранное устройство в инструкции; переключатель языка ведёт на тот же раздел парной страницы (id у RU и EN одни) ----
+  const tiles = $$('.gd-sw a[href^="#"]'), langs = $$('.lang a[href]');
   if (tiles.length) {
-    const sync = () => tiles.forEach(a => { if (a.hash && a.hash === location.hash) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+    const sync = () => {
+      tiles.forEach(a => { if (a.hash && a.hash === location.hash) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+      const t = location.hash.length > 1 ? document.getElementById(location.hash.slice(1)) : null;
+      const h = t && t.matches('.gd-dev, #devices') ? '#' + t.id : '';
+      langs.forEach(a => { if (a.hash !== h) a.hash = h; });
+    };
     sync(); addEventListener('hashchange', sync, P);
   }
 

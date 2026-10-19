@@ -165,7 +165,8 @@ main{overflow:clip}
 [id]{scroll-margin-top:calc(var(--header-h) + 16px)}
 /* и фокус с клавиатуры (Shift+Tab вверх) не прячется под шапкой; внутри превью приложения — свои списки, их не трогаем */
 :where(a,button,summary,[tabindex]):not(.os-ui *){scroll-margin-top:calc(var(--header-h) + 16px)}
-@media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
+/* плавно — только после загрузки (html.smooth ставит sky.js): переход по якорю при открытии (#ru-bot, #iphone) — сразу, иначе в фоновой вкладке и webview он может застрять вверху */
+@media (prefers-reduced-motion:no-preference){ html.smooth{scroll-behavior:smooth} }
 .logo{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--text); flex-shrink:0}
 .logo .mark{display:block; width:30px; height:30px; border-radius:8px; box-shadow:0 0 16px rgb(123 97 255/.4)}
 .word{font-weight:700; font-size:16px; letter-spacing:-.01em} .word b{color:var(--lav); font-weight:700}
