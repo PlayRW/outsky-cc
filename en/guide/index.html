@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to connect OutSky VPN</title>
+<meta name="description" content="Step by step: get your OutSky VPN subscription link from the Telegram bot and connect on iPhone, Android, Windows, Mac or in Chrome.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#07081c">
+<link rel="canonical" href="https://outsky.cc/en/guide/">
+<link rel="alternate" hreflang="ru" href="https://outsky.cc/guide/">
+<link rel="alternate" hreflang="en" href="https://outsky.cc/en/guide/">
+<link rel="alternate" hreflang="x-default" href="https://outsky.cc/en/guide/">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/icon.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="OutSky">
+<meta property="og:title" content="How to connect OutSky VPN">
+<meta property="og:description" content="Get your subscription link from the Telegram bot and connect on iPhone, Android, Windows, Mac or in Chrome — step by step.">
+<meta property="og:url" content="https://outsky.cc/en/guide/">
+<meta property="og:image" content="https://outsky.cc/assets/img/og/og-en.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="OutSky VPN — Two weeks to try it out: 14 days, 25 GB of traffic, up to 2 devices">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<!-- EN: кириллицу не предзагружаем -->
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/fonts.css">
+<link rel="stylesheet" href="/assets/css/nebula.css">
+<link rel="stylesheet" href="/assets/css/cc.css">
+<script src="/assets/js/early.js"></script>
+<script src="/assets/js/core.js" defer></script>
+<script src="/assets/js/sky.js" defer></script>
+<script src="/assets/js/cc.js" defer></script>
+</head>
+<body class="cc">
+<a class="skip" href="#main">Skip to content</a>
+<div class="cglow" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"><i></i></div>
+<!-- значки устройств -->
+<svg class="cc-sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-1.9-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.2 1-4.1 2.5-1.8 3-.5 7.5 1.2 10 .8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-.9-2.4-3.6zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4z"/></symbol>
+  <symbol id="i-android" viewBox="0 0 24 24"><path fill="currentColor" d="M7 9h10v8a1 1 0 0 1-1 1h-1v3h-2v-3h-2v3H9v-3H8a1 1 0 0 1-1-1zM4 9h2v6H4zm14 0h2v6h-2zM8 8a4 4 0 0 1 8 0z"/></symbol>
+  <symbol id="i-windows" viewBox="0 0 24 24"><path fill="currentColor" d="M3 5.5 10 4.5v7H3zM11 4.4 21 3v8.5H11zM3 12.5h7v7l-7-1zM11 12.5h10V21l-10-1.4z"/></symbol>
+  <symbol id="i-mac" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></g></symbol>
+  <symbol id="i-chrome" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M12 8.5h8.5M9 14l-4.3 5.6M15 14l-1.8 6.6"/></g></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7M12 17h.01"/></g></symbol>
+  <symbol id="i-warn" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 2.4 18a2 2 0 0 0 1.7 3h15.8a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></g></symbol>
+  <symbol id="i-arr" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+
+<header class="hd" id="hd">
+  <span class="hd-frost" aria-hidden="true"></span>
+  <a class="logo" href="/en/" aria-label="OutSky VPN — home"><img class="mark" src="/assets/img/favicon.svg" alt="" width="30" height="30"><span class="word">Out<b>Sky</b><i class="cc-vpn">VPN</i></span></a>
+  <nav class="hd-nav" aria-label="Main menu">
+    <a href="/en/">Service</a><a href="/en/guide/" aria-current="page">Setup guide</a><a href="/en/roadmap/">Roadmap</a><a href="/privacy.html#en">Privacy</a>
+  </nav>
+  <a class="cc-app" href="https://outsky.app/en/">OutSky app<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  <div class="lang" role="group" aria-label="Language"><a href="/guide/" hreflang="ru" lang="ru">RU</a><a class="on" href="/en/guide/" hreflang="en" aria-current="true">EN</a></div>
+  <button class="menu-btn" type="button" popovertarget="menu"><span>Menu</span><i aria-hidden="true"></i></button>
+  <a class="menu-btn menu-fb" href="#links"><span>Menu</span><i aria-hidden="true"></i></a>
+</header>
+<nav class="menu" id="menu" popover aria-label="Menu">
+  <div class="neb" aria-hidden="true"><i class="tr el"></i><i class="bl ind"></i></div>
+  <ol class="menu-list">
+    <li><a href="/en/"><span class="ix" aria-hidden="true">(01)</span>Service</a></li>
+    <li><a href="/en/guide/" aria-current="page"><span class="ix" aria-hidden="true">(02)</span>Setup guide</a></li>
+    <li><a href="/en/roadmap/"><span class="ix" aria-hidden="true">(03)</span>Roadmap</a></li>
+    <li><a href="/privacy.html#en"><span class="ix" aria-hidden="true">(04)</span>Privacy</a></li>
+    <li><a href="https://outsky.app/en/"><span class="ix" aria-hidden="true">(05)</span>OutSky app<svg class="cc-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+  </ol>
+  <div class="lang" role="group" aria-label="Language"><a href="/guide/" hreflang="ru" lang="ru">RU</a><a class="on" href="/en/guide/" hreflang="en" aria-current="true">EN</a></div>
+</nav>
+
+<main id="main">
+<!-- выбор устройства: без JS и без :has() видны все инструкции подряд; по якорю (#iphone…#chrome) — только выбранная (CSS :target),
+     «Все устройства» (#devices) снова показывает все. cc.js лишь ставит aria-current на плитку и метку «Ваша система» -->
+<article class="gd">
+  <!-- ===== первый экран: крошки, заголовок, шаг 1 и шаг 2 рядом ===== -->
+  <section class="sec-top gd-top" data-live aria-labelledby="g-h">
+    <div class="neb" aria-hidden="true"><i class="tr el"></i><i class="bl"></i><i class="tl ind"></i></div>
+    <svg class="cst gd-c-orion" viewBox="-4 -6 70 102" aria-hidden="true"><use href="/assets/img/constellations.svg#orion"/></svg>
+    <div class="wrap">
+      <nav class="gd-crumbs" aria-label="You are here"><a href="/en/">OutSky VPN</a><span aria-hidden="true">/</span><span aria-current="page">Setup guide</span></nav>
+      <div class="hole gd-hd">
+        <h1 class="h1" id="g-h"><span class="ln" style="--i:0">How to connect</span> <span class="ln l2 acc" style="--i:1">OutSky VPN</span></h1>
+      </div>
+      <p class="lead hole gd-lead">Get a subscription link from the bot and add it to an app — it only takes a couple of minutes.</p>
+
+      <div class="gd-two">
+        <div class="pane gd-card" style="--gx:10%; --gy:100%">
+          <span class="gd-k">Step 1</span>
+          <h2>Get your subscription link</h2>
+          <ol class="gd-ol">
+            <li>Open <a href="https://t.me/OutSkyVPN_bot">@OutSkyVPN_bot</a> and tap “Start”. If the bot asks for a language, pick one.</li>
+            <li>Subscribe to the <a href="https://t.me/outskyapp">@outskyapp</a> channel and tap the <span class="nb">✅ button</span> to confirm — the bot only asks for this once.</li>
+            <li>Tap <span class="nb">“🎁 Free trial”</span>, then tap <span class="nb">🎁 again</span> to activate it.</li>
+            <li>The bot sends your subscription link. Tap it to copy. You can always find the link under <span class="nb">“📱 My subscription”</span>.</li>
+          </ol>
+        </div>
+
+        <div class="pane gd-card" id="devices" style="--gx:92%; --gy:0%">
+          <div class="gd-k-row"><span class="gd-k">Step 2</span><a class="gd-all" href="#devices">All devices</a></div>
+          <h2>Choose your device</h2>
+          <ul class="gd-sw">
+            <li><a href="#iphone" data-os="ios"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-apple"/></svg></span><span class="gd-tx"><span class="nm">iPhone &amp; iPad</span><span class="ds">INCY app</span></span><svg class="gd-ar" aria-hidden="true"><use href="#i-arr"/></svg></a></li>
+            <li><a href="#android" data-os="android"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-android"/></svg></span><span class="gd-tx"><span class="nm">Android</span><span class="ds">INCY app</span></span><svg class="gd-ar" aria-hidden="true"><use href="#i-arr"/></svg></a></li>
+            <li><a href="#windows" data-os="windows"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-windows"/></svg></span><span class="gd-tx"><span class="nm">Windows</span><span class="ds">INCY app</span></span><svg class="gd-ar" aria-hidden="true"><use href="#i-arr"/></svg></a></li>
+            <li><a href="#mac" data-os="mac"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-mac"/></svg></span><span class="gd-tx"><span class="nm">Mac</span><span class="ds">INCY app</span></span><svg class="gd-ar" aria-hidden="true"><use href="#i-arr"/></svg></a></li>
+            <li><a href="#chrome" data-os="browser"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-chrome"/></svg></span><span class="gd-tx"><span class="nm">Google Chrome</span><span class="ds">VPN in the browser only</span></span><svg class="gd-ar" aria-hidden="true"><use href="#i-arr"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== iPhone ===== -->
+  <section class="sec gd-dev" id="iphone">
+    <div class="neb" aria-hidden="true"><i class="tr"></i><i class="bl el"></i></div>
+    <svg class="cst gd-c-lyra" viewBox="-6 -6 40 52" aria-hidden="true"><use href="/assets/img/constellations.svg#lyra"/></svg>
+    <div class="wrap gd-col"><div class="pane gd-pane">
+      <div class="gd-dh"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-apple"/></svg></span><h2>iPhone &amp; iPad</h2></div>
+      <p class="gd-app">Free INCY app · iOS or iPadOS 15 or later</p>
+      <div class="gd-s"><h3><span class="n">1</span>Install INCY</h3>
+        <p>Get it from the App Store: <a href="https://apps.apple.com/app/incy/id6756943388">incy</a>. It’s available in the Russian App Store too.</p>
+        <div class="gd-note"><svg aria-hidden="true"><use href="#i-warn"/></svg><p>The App Store has look-alikes with similar names, such as “Incy VPN Випиэн” and “INCY VPN ВПН Випиэн”. The real app is called simply “incy”, and the developer is <b>LLC ITDEV</b>.</p></div>
+      </div>
+      <div class="gd-s"><h3><span class="n">2</span>Add your subscription</h3>
+        <ol>
+          <li>In the bot, tap your subscription link to copy it.</li>
+          <li>Open INCY and tap “Paste” on the home screen (or “+ Add” and paste the link). If your iPhone asks for permission to paste, allow it.</li>
+          <li>You’ll see a list of servers by country.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">3</span>Connect</h3>
+        <ol>
+          <li>Choose a server. The main option is the one named after the country; “HS2” and “XHTTP” are backups in case the main one doesn’t connect.</li>
+          <li>Tap the big connect button.</li>
+          <li>The first time you connect, your iPhone will ask to add a VPN configuration — tap “Allow” and confirm with your passcode or Face ID.</li>
+        </ol>
+      </div>
+      <p class="gd-done">Done — a VPN icon appears in the status bar. The app keeps your subscription up to date on its own.</p>
+      <p class="gd-up"><a href="#devices">↑ All devices</a></p>
+    </div></div>
+  </section>
+
+  <!-- ===== Android ===== -->
+  <section class="sec gd-dev" id="android">
+    <div class="neb" aria-hidden="true"><i class="tl ind"></i><i class="br"></i></div>
+    <div class="wrap gd-col"><div class="pane gd-pane">
+      <div class="gd-dh"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-android"/></svg></span><h2>Android</h2></div>
+      <p class="gd-app">Free INCY app · Android 7.0 or later</p>
+      <div class="gd-s"><h3><span class="n">1</span>Install INCY</h3>
+        <ul>
+          <li>From Google Play: <a href="https://play.google.com/store/apps/details?id=llc.itdev.incy">incy</a> (developer INCY-DEV).</li>
+          <li>If Google Play isn’t available, download the installer from INCY’s official GitHub page: <a href="https://github.com/INCY-DEV/incy-platforms/releases/download/android-v3.7.0/Incy.apk">Incy.apk</a>. Open the downloaded file and allow the installation if your phone asks.</li>
+        </ul>
+      </div>
+      <div class="gd-s"><h3><span class="n">2</span>Add your subscription</h3>
+        <ol>
+          <li>In the bot, tap your subscription link to copy it.</li>
+          <li>Open INCY and tap “Paste” on the home screen (or “+ Add” and paste the link).</li>
+          <li>You’ll see a list of servers by country.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">3</span>Connect</h3>
+        <ol>
+          <li>Choose a server. The main option is the one named after the country; “HS2” and “XHTTP” are backups in case the main one doesn’t connect.</li>
+          <li>Tap the big connect button.</li>
+          <li>The first time you connect, Android shows a “Connection request” — tap “OK”.</li>
+        </ol>
+      </div>
+      <p class="gd-done">Done — a key icon appears in the status bar. The app keeps your subscription up to date on its own.</p>
+      <p class="gd-up"><a href="#devices">↑ All devices</a></p>
+    </div></div>
+  </section>
+
+  <!-- ===== Windows ===== -->
+  <section class="sec gd-dev" id="windows">
+    <div class="neb" aria-hidden="true"><i class="tr el"></i><i class="bl"></i></div>
+    <svg class="cst gd-c-umi" viewBox="-4 -4 39 108" aria-hidden="true"><use href="/assets/img/constellations.svg#umi"/></svg>
+    <div class="wrap gd-col"><div class="pane gd-pane">
+      <div class="gd-dh"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-windows"/></svg></span><h2>Windows</h2></div>
+      <p class="gd-app">Free INCY app · 64-bit Windows 10 or 11</p>
+      <div class="gd-note"><svg aria-hidden="true"><use href="#i-warn"/></svg><p>The desktop version of INCY is still early, so expect some bugs. If you only need VPN in the browser, the <a href="#chrome">OutSky VPN extension for Chrome</a> is more reliable.</p></div>
+      <div class="gd-s"><h3><span class="n">1</span>Install INCY</h3>
+        <ol>
+          <li>Download the <a href="https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.8.8/incy-windows-setup.exe">INCY installer for Windows</a> from INCY’s official GitHub page. It works on regular PCs and on laptops with ARM processors.</li>
+          <li>Run the installer and follow the prompts. If Windows shows “Windows protected your PC”, click “More info” → “Run anyway”.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">2</span>Add your subscription</h3>
+        <ol>
+          <li>In the bot, tap your subscription link to copy it.</li>
+          <li>Open INCY and click “Paste” (or “+ Add” and paste the link).</li>
+          <li>You’ll see a list of servers by country.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">3</span>Connect</h3>
+        <ol>
+          <li>Choose “System proxy” mode — it’s enough for browsers and most programs.</li>
+          <li>Choose a server named after the country, without “HS2”: those servers don’t work in the Windows version yet.</li>
+          <li>Click the connect button.</li>
+        </ol>
+      </div>
+      <p class="gd-up"><a href="#devices">↑ All devices</a></p>
+    </div></div>
+  </section>
+
+  <!-- ===== Mac ===== -->
+  <section class="sec gd-dev" id="mac">
+    <div class="neb" aria-hidden="true"><i class="tl el"></i><i class="br ind"></i></div>
+    <div class="wrap gd-col"><div class="pane gd-pane">
+      <div class="gd-dh"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-mac"/></svg></span><h2>Mac</h2></div>
+      <p class="gd-app">Free INCY app</p>
+      <div class="gd-s"><h3><span class="n">1</span>Install INCY</h3>
+        <p>To see which processor you have, open the Apple menu (the Apple logo in the top-left corner) → “About This Mac”.</p>
+        <ul>
+          <li><b>Apple M1 or later</b> (macOS 12 or later) — install from the App Store: <a href="https://apps.apple.com/app/incy/id6756943388">incy</a>, developer <b>LLC ITDEV</b>. It’s the same app as on iPhone and iPad.</li>
+          <li><b>Intel</b> — download <a href="https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.8.8/incy-macos-intel.dmg">INCY for Intel Macs</a> from INCY’s official GitHub page, open the .dmg file and drag INCY into the Applications folder. This version is still early, so expect some bugs.</li>
+        </ul>
+      </div>
+      <div class="gd-s"><h3><span class="n">2</span>Add your subscription</h3>
+        <ol>
+          <li>In the bot, tap your subscription link to copy it.</li>
+          <li>Open INCY and click “Paste” on the home screen (or “+ Add” and paste the link).</li>
+          <li>You’ll see a list of servers by country.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">3</span>Connect</h3>
+        <ol>
+          <li>Choose a server. The main option is the one named after the country; “HS2” and “XHTTP” are backups in case the main one doesn’t connect.</li>
+          <li>Click the connect button. The first time you connect, your Mac will ask to add a VPN configuration — click “Allow”.</li>
+        </ol>
+      </div>
+      <p class="gd-done">The app keeps your subscription up to date on its own.</p>
+      <p class="gd-up"><a href="#devices">↑ All devices</a></p>
+    </div></div>
+  </section>
+
+  <!-- ===== Chrome ===== -->
+  <section class="sec gd-dev" id="chrome">
+    <div class="neb" aria-hidden="true"><i class="tr ind"></i><i class="bl el"></i></div>
+    <svg class="cst gd-c-cass" viewBox="-6 2 92 40" aria-hidden="true"><use href="/assets/img/constellations.svg#cass"/></svg>
+    <div class="wrap gd-col"><div class="pane gd-pane">
+      <div class="gd-dh"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-chrome"/></svg></span><h2>Google Chrome</h2></div>
+      <p class="gd-app">OutSky VPN extension · VPN in the browser only; other programs work as usual</p>
+      <div class="gd-s"><h3><span class="n">1</span>Install the extension</h3>
+        <ol>
+          <li>Open <a href="https://chromewebstore.google.com/detail/outsky-vpn/aacogocimaopagjjfhgmaefgbcmbjhci">OutSky VPN in the Chrome Web Store</a>, click “Add to Chrome” and confirm.</li>
+          <li>Pin the icon: click the puzzle-piece icon to the right of the address bar, then the pin next to OutSky VPN.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">2</span>Add your subscription</h3>
+        <ol>
+          <li>In the bot, tap your subscription link to copy it.</li>
+          <li>Click the OutSky VPN icon, paste the link into the “Paste subscription link” field and click “Activate”.</li>
+        </ol>
+      </div>
+      <div class="gd-s"><h3><span class="n">3</span>Connect</h3>
+        <ol>
+          <li>Click the big button — the status changes to “Protected”.</li>
+          <li>To switch location, click “Change”.</li>
+        </ol>
+      </div>
+      <div class="gd-tip">
+        <h3>Good to know</h3>
+        <ul>
+          <li>Routing is in the extension settings: “Smart” — Russian sites open directly, everything else goes through VPN; “Full tunnel” — all sites go through VPN.</li>
+          <li>“Auto-connect” in settings turns VPN on when Chrome starts.</li>
+          <li>Need VPN for the whole computer? Install INCY: see the guides for <a href="#windows">Windows</a> and <a href="#mac">Mac</a>.</li>
+        </ul>
+      </div>
+      <p class="gd-up"><a href="#devices">↑ All devices</a></p>
+    </div></div>
+  </section>
+
+  <!-- ===== не получается: видно всегда ===== -->
+  <section class="sec gd-dev gd-help" id="help">
+    <div class="neb" aria-hidden="true"><i class="bl ind"></i><i class="br el"></i></div>
+    <div class="wrap gd-col"><div class="pane gd-pane" style="--gx:50%; --gy:110%">
+      <div class="gd-dh"><span class="gd-gi"><svg aria-hidden="true"><use href="#i-help"/></svg></span><h2>Not working?</h2></div>
+      <ul class="gd-hl">
+        <li>If it doesn’t connect, pick a different server or location.</li>
+        <li>Still stuck? Message support at <a href="https://t.me/outsky_support">@outsky_support</a>: tell us your device and what you see on screen — a screenshot helps.</li>
+        <li>Your subscription link is your personal access. Don’t post it publicly or forward it.</li>
+      </ul>
+      <p class="gd-done">Service news is posted in the <a href="https://t.me/outskyapp">@outskyapp</a> channel.</p>
+    </div></div>
+  </section>
+</article>
+</main>
+
+<footer class="ft" id="links">
+  <div class="neb" aria-hidden="true"><i class="bc"></i></div>
+  <div class="wrap ft-in">
+    <a class="tg-card pane" href="https://t.me/outskyapp"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.7c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9-8.2c.4-.4-.1-.6-.6-.2L6.3 13.3l-4.8-1.5c-1-.3-1-1 .2-1.5l18.8-7.2c.9-.3 1.6.2 1.4 1.5z"/></svg></span><span><b>@outskyapp channel</b><small>News in the channel →</small></span></a>
+    <div class="ft-row">
+      <nav class="ft-nav" aria-label="Links"><a href="/en/">Service</a><a href="/en/guide/" aria-current="page">Setup guide</a><a href="/en/roadmap/">Roadmap</a><a href="/privacy.html#en">Privacy</a><a href="https://t.me/outsky_support">Support @outsky_support</a><a href="https://outsky.app/en/">OutSky app<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></nav>
+      <div class="lang ft-lang" role="group" aria-label="Language"><a href="/guide/" hreflang="ru" lang="ru">RU</a><a class="on" href="/en/guide/" hreflang="en" aria-current="true">EN</a></div>
+    </div>
+    <div class="ft-c">© 2026 OutSky</div>
+  </div>
+</footer>
+</body>
+</html>

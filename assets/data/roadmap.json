@@ -1,0 +1,48 @@
+{
+  "updated": "2026-10-19",
+  "statuses": [
+    { "id": "planned",     "ru": "Запланировано",  "en": "Planned" },
+    { "id": "in_progress", "ru": "В работе",       "en": "In progress" },
+    { "id": "testing",     "ru": "На тестировании", "en": "Testing" },
+    { "id": "done",        "ru": "Готово",         "en": "Done" },
+    { "id": "on_hold",     "ru": "Отложено",       "en": "On hold" },
+    { "id": "cancelled",   "ru": "Отменено",       "en": "Cancelled" }
+  ],
+  "products": [
+    { "id": "extension", "ru": "Расширение",  "en": "Extension" },
+    { "id": "vpn",       "ru": "OutSky VPN",  "en": "OutSky VPN" }
+  ],
+  "items": [
+    { "id": "ext-store", "product": "extension", "status": "done", "tags": ["chrome"],
+      "title": { "ru": "Расширение в Chrome Web Store", "en": "Extension in the Chrome Web Store" },
+      "text": { "ru": "VPN для браузера Chrome, работает с подпиской OutSky VPN.", "en": "VPN for the Chrome browser, works with an OutSky VPN subscription." } },
+    { "id": "ext-103", "product": "extension", "status": "done", "tags": ["chrome"],
+      "title": { "ru": "Версия 1.0.3: без лишних окон", "en": "Version 1.0.3: no stray pop-ups" },
+      "text": { "ru": "Больше никаких системных окон с логином и паролем; при обрыве — понятная причина и уведомление по желанию.", "en": "No more system login pop-ups. If the connection drops, you see why, with an optional notification." } },
+    { "id": "ext-104", "product": "extension", "status": "done", "tags": ["chrome"],
+      "title": { "ru": "Версия 1.0.4: честный пинг", "en": "Version 1.0.4: accurate ping" },
+      "text": { "ru": "Реальная задержка до локаций, перепроверка пинга в один клик.", "en": "Real latency to locations and one-click ping re-checks." } },
+    { "id": "ext-style", "product": "extension", "status": "planned", "tags": ["design"],
+      "title": { "ru": "Расширение в едином дизайне", "en": "Extension in the unified design" },
+      "text": { "ru": "Расширение перейдёт на единый дизайн OutSky, когда он будет готов.", "en": "Moves to the unified OutSky design once it’s final." } },
+    { "id": "vpn-trial", "product": "vpn", "status": "done", "tags": [],
+      "title": { "ru": "Бесплатный пробный период", "en": "Free trial" },
+      "text": { "ru": "14 дней, 25 ГБ и до 2 устройств — в Telegram-боте @OutSkyVPN_bot.", "en": "14 days, 25 GB and up to 2 devices — from @OutSkyVPN_bot on Telegram." } },
+    { "id": "vpn-guide", "product": "vpn", "status": "done", "tags": [],
+      "title": { "ru": "Инструкция подключения", "en": "Setup guide" },
+      "text": { "ru": "Пошагово для iPhone, Android, Windows, Mac и Chrome.", "en": "Step by step for iPhone, Android, Windows, Mac and Chrome." } },
+    { "id": "vpn-paid", "product": "vpn", "status": "planned", "tags": [],
+      "title": { "ru": "Платная подписка", "en": "Paid subscription" },
+      "text": { "ru": "Оформление и продление прямо в боте.", "en": "Buying and renewing right in the bot." } },
+    { "id": "vpn-app", "product": "vpn", "status": "planned", "tags": [],
+      "title": { "ru": "OutSky VPN в приложении OutSky", "en": "OutSky VPN in the OutSky app" },
+      "text": { "ru": "Подписку OutSky VPN можно будет добавить в приложение OutSky — так же, как подписку любого провайдера.", "en": "You’ll be able to add your OutSky VPN subscription to the OutSky app, just like any other provider’s." } },
+    { "id": "vpn-france", "product": "vpn", "status": "on_hold", "tags": [],
+      "title": { "ru": "Сервер во Франции", "en": "Server in France" },
+      "text": { "ru": "Подбираем подходящий сервер.", "en": "Looking for a suitable server." } }
+  ],
+  "tags": {
+    "design":    { "ru": "Дизайн",       "en": "Design" },
+    "chrome":    { "ru": "Chrome",       "en": "Chrome" }
+  }
+}

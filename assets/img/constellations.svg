@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<!-- Созвездия для фона страниц outsky.cc. Подключение: <svg class="cst" viewBox="…" aria-hidden="true"><use href="/assets/img/constellations.svg#ursa"/></svg>
+     (viewBox — как у символа). Цвет — CSS color (линии и звёзды currentColor), яркость — opacity, размер — width.
+     Очертания по настоящим звёздам, координаты упрощены (часть — гномоническая проекция J2000, север вверху, восток слева;
+     радиус точки — по звёздной величине). -->
+<!-- Большая Медведица (ковш): Бенетнаш — Мицар (+ Алькор) — Алиот — Мегрец — Дубхе — Мерак — Фекда — Мегрец -->
+<symbol id="ursa" viewBox="-6 6 156 66">
+<g fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" vector-effect="non-scaling-stroke">
+<path vector-effect="non-scaling-stroke" d="M0 40 L38 22 L66 18 L92 28 L136 26 L140 62 L98 58 L92 28"/>
+</g>
+<g fill="currentColor">
+<circle cx="0" cy="40" r="2.2"/><circle cx="38" cy="22" r="2.2"/><circle cx="41.5" cy="15.5" r=".9" opacity=".7"/>
+<circle cx="66" cy="18" r="2.4"/><circle cx="92" cy="28" r="1.5"/><circle cx="136" cy="26" r="2.5"/>
+<circle cx="140" cy="62" r="2.2"/><circle cx="98" cy="58" r="2"/>
+</g>
+</symbol>
+<!-- Кассиопея («W»): Каф — Шедар — Нави — Рукбах — Сегин -->
+<symbol id="cass" viewBox="-6 2 92 40">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M0 10 L20 30 L40 18 L60 32 L80 12"/>
+<g fill="currentColor"><circle cx="0" cy="10" r="2.1"/><circle cx="20" cy="30" r="2.4"/><circle cx="40" cy="18" r="2.2"/><circle cx="60" cy="32" r="1.9"/><circle cx="80" cy="12" r="1.7"/></g>
+</symbol>
+<!-- Орион: Мейсса, плечи Бетельгейзе и Беллатрикс, пояс Альнитак — Альнилам — Минтака, Саиф и Ригель -->
+<symbol id="orion" viewBox="-4 -6 70 102">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"
+d="M30 0 L8 8 M30 0 L52 14 M8 8 L24 52 M52 14 L40 46 M24 52 L32 49 L40 46 M24 52 L16 90 M40 46 L58 86"/>
+<g fill="currentColor">
+<circle cx="30" cy="0" r="1.3"/><circle cx="8" cy="8" r="2.7"/><circle cx="52" cy="14" r="2"/>
+<circle cx="24" cy="52" r="1.8"/><circle cx="32" cy="49" r="1.9"/><circle cx="40" cy="46" r="1.7"/>
+<circle cx="16" cy="90" r="1.8"/><circle cx="58" cy="86" r="2.7"/>
+</g>
+</symbol>
+<!-- Лебедь (Северный крест): Денеб — Садр — η — Альбирео, Гиена (ε) — Садр — δ -->
+<symbol id="cygnus" viewBox="-4 -6 86 104">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" vector-effect="non-scaling-stroke" d="M40 0 L40 34 L42 62 L44 94 M8 42 L40 34 L72 24"/>
+<g fill="currentColor"><circle cx="40" cy="0" r="2.5"/><circle cx="40" cy="34" r="2"/><circle cx="42" cy="62" r="1.2"/><circle cx="44" cy="94" r="1.6"/><circle cx="8" cy="42" r="1.7"/><circle cx="72" cy="24" r="1.6"/></g>
+</symbol>
+<!-- Лира: Вега, ε, параллелограмм ζ — δ — γ — β -->
+<symbol id="lyra" viewBox="-6 -6 40 52">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M10 0 L16 16 M10 0 L0 8 M16 16 L26 22 L22 40 L10 36 Z"/>
+<g fill="currentColor"><circle cx="10" cy="0" r="2.7"/><circle cx="0" cy="8" r="1"/><circle cx="16" cy="16" r="1.2"/><circle cx="26" cy="22" r="1.1"/><circle cx="22" cy="40" r="1.4"/><circle cx="10" cy="36" r="1.4"/></g>
+</symbol>
+<!-- Малая Медведица: Полярная — Йильдун — ε — ζ — Кохаб — Феркад — η — ζ -->
+<symbol id="umi" viewBox="-4 -4 39 108">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M9.6 0 L2.8 20.3 L0 45 L11.4 68.8 L30.7 85.8 L21.3 100 L0.6 78.9 L11.4 68.8"/>
+<g fill="currentColor"><circle cx="9.6" cy="0" r="2"/><circle cx="2.8" cy="20.3" r="1"/><circle cx="0" cy="45" r="1"/><circle cx="11.4" cy="68.8" r="1"/><circle cx="0.6" cy="78.9" r=".9"/><circle cx="21.3" cy="100" r="1.5"/><circle cx="30.7" cy="85.8" r="1.9"/></g>
+</symbol>
+<!-- Персей: η — γ — Мирфак — δ — ε — ξ — ζ — Атик, ветка Мирфак — κ — Алголь — ρ -->
+<symbol id="per" viewBox="-4 -4 56 108">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M47.3 0 L39.7 11.1 L28 26.9 L15.4 35.2 L2.4 66.2 L0 83.4 L2.9 100 L11.6 98.7 M28 26.9 L39 46.9 L40.9 62.7 L43.9 71.2"/>
+<g fill="currentColor"><circle cx="28" cy="26.9" r="2"/><circle cx="40.9" cy="62.7" r="1.9"/><circle cx="39.7" cy="11.1" r="1.6"/><circle cx="15.4" cy="35.2" r="1.5"/><circle cx="2.4" cy="66.2" r="1.6"/><circle cx="2.9" cy="100" r="1.6"/><circle cx="47.3" cy="0" r="1.2"/><circle cx="11.6" cy="98.7" r="1.2"/><circle cx="43.9" cy="71.2" r="1.4"/><circle cx="39" cy="46.9" r="1.2"/><circle cx="0" cy="83.4" r="1.1"/></g>
+</symbol>
+<!-- Пегас: Большой квадрат Маркаб — Шеат — Альферац — Альгениб, шея Маркаб — ζ — θ — Эниф, ноги от Шеата -->
+<symbol id="peg" viewBox="-4 -4 128 87">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M55.4 49.4 L57.3 8.4 L10.3 0 L0 46.1 Z M55.4 49.4 L73.4 63.7 L99.1 78.7 L120 65.6 M57.3 8.4 L71.9 1.7 M57.3 8.4 L66.8 19.7 L98.1 16.4 L114.6 13.8"/>
+<g fill="currentColor"><circle cx="55.4" cy="49.4" r="1.8"/><circle cx="57.3" cy="8.4" r="1.8"/><circle cx="0" cy="46.1" r="1.6"/><circle cx="10.3" cy="0" r="1.9"/><circle cx="73.4" cy="63.7" r="1.4"/><circle cx="99.1" cy="78.7" r="1.3"/><circle cx="120" cy="65.6" r="1.8"/><circle cx="71.9" cy="1.7" r="1.6"/><circle cx="66.8" cy="19.7" r="1.3"/><circle cx="98.1" cy="16.4" r="1.2"/><circle cx="114.6" cy="13.8" r="1.1"/></g>
+</symbol>
+<!-- Лев: «серп» ε — μ — ζ — Альгиеба — η — Регул, тело Регул — Шертан — Денебола — Зосма — Альгиеба -->
+<symbol id="leo" viewBox="-4 -4 118 61">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M110 7.9 L103.6 0 L83.7 10.7 L81.2 23.8 L92.5 34.9 L92.2 52.7 L33.1 39.2 L0 40.3 L34.4 20.3 L81.2 23.8 M34.4 20.3 L33.1 39.2"/>
+<g fill="currentColor"><circle cx="92.2" cy="52.7" r="2.2"/><circle cx="92.5" cy="34.9" r="1.3"/><circle cx="81.2" cy="23.8" r="1.9"/><circle cx="83.7" cy="10.7" r="1.4"/><circle cx="103.6" cy="0" r="1.2"/><circle cx="110" cy="7.9" r="1.5"/><circle cx="34.4" cy="20.3" r="1.7"/><circle cx="33.1" cy="39.2" r="1.4"/><circle cx="0" cy="40.3" r="1.9"/></g>
+</symbol>
+<!-- Дракон: голова Растабан — Этамин — Грумиум — ν, тело Грумиум — Альтаис — ε — χ — ζ — η — θ — Эдасих — Тубан — κ — Джаузар -->
+<symbol id="dra" viewBox="-4 -4 128 118">
+<path fill="none" stroke="currentColor" stroke-width=".9" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" d="M23.6 109.4 L9.6 109.3 L16.2 91.9 L24.6 99.6 Z M16.2 91.9 L3.2 47 L0 33.2 L24.2 39.4 L39 66.6 L55 80.4 L65.2 88.9 L80.4 84.1 L101.1 53.8 L109.2 18.4 L120 0"/>
+<g fill="currentColor"><circle cx="9.6" cy="109.3" r="1.9"/><circle cx="23.6" cy="109.4" r="1.6"/><circle cx="24.6" cy="99.6" r=".9"/><circle cx="16.2" cy="91.9" r="1.2"/><circle cx="3.2" cy="47" r="1.5"/><circle cx="0" cy="33.2" r="1.2"/><circle cx="24.2" cy="39.4" r="1.3"/><circle cx="39" cy="66.6" r="1.5"/><circle cx="55" cy="80.4" r="1.7"/><circle cx="65.2" cy="88.9" r="1.1"/><circle cx="80.4" cy="84.1" r="1.4"/><circle cx="101.1" cy="53.8" r="1.3"/><circle cx="109.2" cy="18.4" r="1.2"/><circle cx="120" cy="0" r="1.2"/></g>
+</symbol>
+</svg>
